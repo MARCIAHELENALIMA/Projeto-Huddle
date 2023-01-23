@@ -60,22 +60,24 @@ nav .nav-container{
   padding: 60px;
 }
 
-.btn-nav, .btn-banner{
+.btn-nav, .btn-banner, .btn-start{
   outline: none;
   border: none;
   box-shadow: 2px 2px 4px var(--Grayis-hBlue);
   border-radius: 40px;
   padding: 15px 60px;
-  background-color: var(--VeryPale);
-  color: var(--title-color);
   cursor: pointer;
   font-size: 18px;
 }
 
-.btn-banner{
+.btn-nav{
+  background-color: var(--VeryPale);
+  color: var(--title-color);
+}
+
+.btn-banner, .btn-start{
   background-color: var(--pink);
   color: var(--VeryPale);
-
 }
 
 #main-banner{
@@ -88,10 +90,20 @@ nav .nav-container{
   padding: 2em 0;
 }
 
+#main-banner h1{
+   padding-top: 3em;
+}
+
 .banner{
   width: 40%;
   padding-right: 2em;
 }
 #main-banner img{
   width: 60%;
+}
+
+.description{
+  padding: 0 2em;
+  display: flex;
+  flex-direction: row;
 }
