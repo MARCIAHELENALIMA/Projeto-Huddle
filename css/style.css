@@ -9,7 +9,7 @@
 
 /*========== Colors ==========*/
  --pink: #ff1ca8; 
- --VeryPale: #dcffe7;
+ --VeryPale: #ebfcf0;
  --VeryDark: #003611;
  --Grayis-hBlue: #838283;
  --title-color: #000000;
@@ -49,4 +49,16 @@ a{
 ul{
   padding: 0;
   list-style: none;
+}
+
+.btn-nav{
+  outline: none;
+  border: none;
+  box-shadow: 2px 2px 4px var(--Grayis-hBlue);
+  border-radius: 40px;
+  padding: 10px 20px;
+  background-color: var(--VeryPale);
+  color: var(--title-color);
+  cursor: pointer;
+  font-size: 18px;
 }
