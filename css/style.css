@@ -25,11 +25,13 @@
 header{
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
+  background: url(../img/bg-hero-desktop.svg) no-repeat;
 }
 
 body{
   background-color: var(--VeryPale);
   min-height: 100vh;
+  min-width: 100vh;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
 }
@@ -51,14 +53,45 @@ ul{
   list-style: none;
 }
 
-.btn-nav{
+nav .nav-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px;
+}
+
+.btn-nav, .btn-banner{
   outline: none;
   border: none;
   box-shadow: 2px 2px 4px var(--Grayis-hBlue);
   border-radius: 40px;
-  padding: 10px 20px;
+  padding: 15px 60px;
   background-color: var(--VeryPale);
   color: var(--title-color);
   cursor: pointer;
   font-size: 18px;
+}
+
+.btn-banner{
+  background-color: var(--pink);
+  color: var(--VeryPale);
+
+}
+
+#main-banner{
+  padding: 0 2em;
+  display: flex;
+  flex-direction: row;
+}
+
+#main-banner p{
+  padding: 2em 0;
+}
+
+.banner{
+  width: 40%;
+  padding-right: 2em;
+}
+#main-banner img{
+  width: 60%;
 }
