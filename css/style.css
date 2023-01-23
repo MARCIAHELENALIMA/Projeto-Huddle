@@ -13,6 +13,7 @@
  --VeryDark: #003611;
  --Grayis-hBlue: #838283;
  --title-color: #000000;
+ --branco: #ffffff;
 }
 
 /*========== CLASS CSS ==========*/
@@ -26,10 +27,11 @@ header{
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   background: url(../img/bg-hero-desktop.svg) no-repeat;
+  background-color: var(--VeryPale);
 }
 
 body{
-  background-color: var(--VeryPale);
+  background-color: var(--branco);
   min-height: 100vh;
   min-width: 100vh;
   font-family: "Open Sans", sans-serif;
@@ -103,7 +105,22 @@ nav .nav-container{
 }
 
 .description{
-  padding: 0 2em;
+  padding: 20px 2em;
   display: flex;
+  margin: 39px;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background-color: #fff;
+  box-shadow: 2px 2px 4px var(--Grayis-hBlue);
+}
+
+.info-description{
+  width: 40%;
+}
+
+.description img{
+  width: 50%;
 }
