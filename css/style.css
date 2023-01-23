@@ -16,7 +16,23 @@
 }
 
 /*========== CLASS CSS ==========*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+header{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+body{
+  background-color: var(--VeryPale);
+  min-height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
 
 h1,h2,h3,ul,p{
   margin: 0;
