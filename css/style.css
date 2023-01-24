@@ -11,6 +11,7 @@
  --pink: #ff1ca8; 
  --VeryPale: #ebfcf0;
  --VeryDark: #003611;
+ --cyanDark: #00252e;
  --Grayis-hBlue: #adadad;
  --preto: #000000;
  --branco: #ffffff;
@@ -96,7 +97,7 @@ nav .nav-container{
 }
 
 #main-banner h1{
-   padding-top: 3em;
+  padding-top: 3em;
 }
 
 .banner{
@@ -128,3 +129,32 @@ nav .nav-container{
 .description img{
   width: 50%;
 }
+
+.start-container {
+
+  margin: 80px auto 0px;
+  width: 50%;
+  text-align: center;
+  padding: 40px;
+  background-color: #fff;
+
+  border-radius: 10px;
+  box-shadow: 0px 0px 6px var(--cinza-claro);
+}
+
+.start-container h2 {
+  margin-bottom: 40px
+}
+
+.start-container button {
+  font-family: 'Poppins', sans-serif;
+  transition: 0.4s
+}
+.start-container button:hover {
+  filter: brightness(0.8)
+}
+
+footer {
+  background-color: var(--cyanDark)
+}
+
