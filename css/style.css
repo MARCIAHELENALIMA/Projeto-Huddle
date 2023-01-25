@@ -10,7 +10,6 @@
 /*========== Colors ==========*/
 --pink: #ff1ca8; 
 --VeryPale: #ebfcf0;
---VeryDark: #003611;
 --cyanDark: #00252e;
 --Grayis-hBlue: #adadad;
 --preto: #000000;
@@ -131,7 +130,6 @@ width: 50%;
 }
 
 .start-container {
-
 margin: 80px auto 0px;
 width: 50%;
 text-align: center;
@@ -150,10 +148,37 @@ margin-bottom: 40px
 font-family: 'Poppins', sans-serif;
 transition: 0.4s
 }
+
 .start-container button:hover {
 filter: brightness(0.8)
 }
 
 footer {
-background-color: var(--cyanDark)
+    background-color: var(--cyanDark);
+    padding: 1em 2em;
+    position: relative;
+
 }
+
+footer .contact{
+    width: 60%;
+}
+
+footer .social{
+    width: 30%;
+}
+
+/*.footer-logo{
+    padding-left: 5em;
+    padding-top: 3em;
+
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    padding: 0 1em;
+    justify-content: space-between;
+}
+}*/
