@@ -154,18 +154,91 @@ transition: 0.4s
 filter: brightness(0.8)
 }
 
-footer {
-    background-color: var(--cyanDark);
-    padding: 1em 2em;
-    position: relative;
-
+footer{
+    background: url(../img/Rectangle.svg);
+    width: 100vw;
+    height: 500px;
 }
 
-footer .contact{
-    width: 60%;
+.logo-huddle{
+    margin-top: 180px;
+    margin-bottom: 28px;
+    margin-left: 6em;
 }
 
-footer .social{
-    width: 30%;
+.box-one{
+    width: 31%;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0 3em
+}
+
+.location{
+    width: 298px;
+    display: flex;
+    color: #fff;
+    font-size: 14px;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.location img{
+    padding-right: 1em;
+    padding-top: 4px;
+}
+
+.tel{
+    display: flex;
+    color: #fff;
+    margin-top: 20px;
+    gap: 10px;
+    align-items: center;
+}
+
+.email{
+    display: flex;
+    color: #fff;
+    margin-top: 20px;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: flex-start;
+    width: 15%;
+}
+
+.links a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-networks{
+    display: flex;
+    justify-content: center;
+    gap:15px ;
+}
+
+.copyright{
+    margin-top: 45px;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 6em;
+}
+.copyright a{
+    color: #fff;
+    text-decoration: none;
 }
 
