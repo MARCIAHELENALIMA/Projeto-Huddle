@@ -46,17 +46,11 @@ section div div {
 	gap: 2rem
 }
 
-h1,
-h2,
-h3,
-ul,
-p {
+h1, h2, h3, ul, p {
 	margin: 0;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
 	color: var(--preto);
 }
 
@@ -351,11 +345,15 @@ ul {
 
 	/*========== navbar ==========*/
 	.nav-container {
-		padding: 35px;
+		padding: 20px
 	}
 
 	.btn-nav {
-		padding: 10px 30px;
+		padding: 10px 20px;
+	}
+
+	.description{
+		margin: 35px;
 	}
 
 	.description:nth-child(1),
@@ -404,35 +402,17 @@ ul {
 		padding: 1em;
 	}
 
-    .box-one {
-        width: 100%;
-		padding-bottom: 25px;
-    }
 	/*========== box ==========*/
 	.start-container {
 		width: 80%;
+	}
+    .btn-start{
+	padding: 15px 40px
 	}
 
 	.start-container h2 {
 		margin-bottom: 30px;
 	}
-
-    .links {
-		width: 100%;
-		padding-bottom: 25px;
-    }
-
-	.copyright {
-		padding-right: 1em;
-		padding-left: 2em;
-		justify-content: flex-start;
-		margin-top: 35px;
-	}
-
-	.copyright a {
-      display: block;
-	}
-
 
 	/*========== footer ==========*/
 	.logo-huddle {
@@ -446,8 +426,8 @@ ul {
 	}
 
 	.box-one {
-		width: 100%;
-	}
+        width: 100%;
+    }
 
 	.location {
 		width: 100%;
@@ -456,5 +436,24 @@ ul {
 	.links {
 		width: 100%;
 		padding-top: 25px
+	}
+
+	.social-networks{
+		padding-top: 25px;
+	}
+
+	.links {
+		width: 100%;
+    }
+
+	.copyright {
+		padding-right: 1em;
+		padding-left: 2em;
+		justify-content: flex-start;
+		margin-top: 35px;
+	}
+
+	.copyright a {
+      display: block;
 	}
 }
