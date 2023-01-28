@@ -36,7 +36,7 @@ header{
 body{
 	background-color: var(--branco);
 	min-height: 100vh;
-	min-width: 100vh;
+	min-width: 100vw;
 	font-family: "Open Sans", sans-serif;
 	font-weight: 400;
 }
@@ -99,21 +99,21 @@ ul{
 	padding: 15px 60px;
 	cursor: pointer;
 	font-size: 18px;
-    background-color: var(--pink);
+  background-color: var(--pink);
 	color: var(--branco);
-    transition: 0.5s;
+  transition: 0.5s;
 }
 
 .btn-banner:hover{
-    background-color:var(--VeryPale);
-    color: var(--preto);
+  background-color:var(--VeryPale);
+  color: var(--preto);
 }
 
 #main-banner{
 	padding: 0 2em;
 	display: flex;
 	flex-direction: row;
-    align-items: center;
+  align-items: center;
 }
 
 #main-banner p{
@@ -292,7 +292,7 @@ ul{
 }
 
 /*========== medias ==========*/
-@media (min-width: 768px){
+@media (max-width: 768px){
 
     /*========== banner home ==========*/
     .banner{
@@ -337,7 +337,7 @@ ul{
     }
 }
 
-@media (min-width: 425px){
+@media (max-width: 600px){
 
     /*========== navbar ==========*/
     .nav-container{
@@ -388,7 +388,7 @@ ul{
         padding: 1em;
     }
     
-     /*========== box ==========*/
+    /*========== box ==========*/
     .start-container {
         width: 80%;
     }
@@ -409,15 +409,16 @@ ul{
     }
 
     .box-one {
-        width: 100%;
+      width: 100%;
     }
 
     .location {
-        width: 100%;
+      width: 100%;
     }
 
     .links {
         width: 100%;
+				padding-top: 25px
     }
 
     .social-networks {
