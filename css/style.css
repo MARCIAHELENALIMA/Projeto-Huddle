@@ -136,10 +136,11 @@ ul {
 }
 
 /*========== section ==========*/
+
 .description {
 	padding: 20px 2em;
 	display: flex;
-	margin: 39px;
+	margin: 60px;;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
