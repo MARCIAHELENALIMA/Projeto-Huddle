@@ -97,7 +97,7 @@ nav .nav-container{
 
 .btn-banner, .btn-start{
 	background-color: var(--pink);
-	color: var(--VeryPale);
+	color: var(--branco);
 }
 
 #main-banner{
@@ -134,7 +134,7 @@ nav .nav-container{
 	border-radius: 10px;
 	border: 1px solid transparent;
 	background-color: #fff;
-	box-shadow: 0px 0px 6px var(--cinza-claro);
+	box-shadow: 0px 0px 18px var(--cinza-claro);
 }
 
 .info-description{
@@ -151,9 +151,8 @@ nav .nav-container{
 	text-align: center;
 	padding: 40px;
 	background-color: #fff;
-
 	border-radius: 10px;
-	box-shadow: 0px 0px 6px var(--cinza-claro);
+	box-shadow: 0px 0px 18px var(--cinza-claro);
 }
 
 .start-container h2 {
@@ -170,14 +169,15 @@ nav .nav-container{
 }
 
 .logo-huddle{
-	margin-top: 150px;
+	margin-top: 70px;
 	margin-left: 5.5em;
 	width: 200px;
 }
 
 footer {
 	background-color: var(--cyanDark);
-	padding: 100px 60px;
+    padding-bottom: 35px;
+    padding-top: 60px;
 	margin-top: -100px;
 	width: 100%;
 	position: absolute;
