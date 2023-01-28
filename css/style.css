@@ -410,6 +410,7 @@ ul{
 
     .box-one {
         width: 100%;
+		padding-bottom: 25px;
     }
 
     .location {
@@ -417,6 +418,20 @@ ul{
     }
 
     .links {
-        width: 100%;
+		width: 100%;
+		padding-bottom: 25px;
     }
+
+	.copyright {
+		padding-right: 1em;
+		padding-left: 2em;
+		justify-content: flex-start;
+		margin-top: 35px;
+	}
+
+	.copyright a {
+      display: block;
+	}
+
+
 }
