@@ -46,11 +46,17 @@ section div div {
 	gap: 2rem
 }
 
-h1, h2, h3, ul, p {
+h1,
+h2,
+h3,
+ul,
+p {
 	margin: 0;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
 	color: var(--preto);
 }
 
@@ -352,7 +358,7 @@ ul {
 		padding: 10px 20px;
 	}
 
-	.description{
+	.description {
 		margin: 35px;
 	}
 
@@ -406,8 +412,9 @@ ul {
 	.start-container {
 		width: 80%;
 	}
-    .btn-start{
-	padding: 15px 40px
+
+	.btn-start {
+		padding: 15px 40px
 	}
 
 	.start-container h2 {
@@ -426,8 +433,8 @@ ul {
 	}
 
 	.box-one {
-        width: 100%;
-    }
+		width: 100%;
+	}
 
 	.location {
 		width: 100%;
@@ -438,13 +445,13 @@ ul {
 		padding-top: 25px
 	}
 
-	.social-networks{
+	.social-networks {
 		padding-top: 25px;
 	}
 
 	.links {
 		width: 100%;
-    }
+	}
 
 	.copyright {
 		padding-right: 1em;
@@ -454,6 +461,13 @@ ul {
 	}
 
 	.copyright a {
-      display: block;
+		display: block;
+	}
+}
+
+@media (min-width: 2000px) {
+
+	body {
+		font-size: 40px
 	}
 }
