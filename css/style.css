@@ -1,4 +1,4 @@
-/* 
+
 /*===== GOOGLE FONTS =====*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family= Open+Sans:wght@400;700 & display = swap');
@@ -420,22 +420,4 @@ ul{
         width: 100%;
 				padding-top: 25px
     }
-
-    .social-networks {
-        padding-top: 25px;
-    }
-
-    .copyright{
-        padding-left: 2em;
-        padding-right: 1em;
-        justify-content: flex-start;
-    } 
-
-    .copyright a {
-        display: block;
-    }
-
-
-
-
 }
