@@ -38,6 +38,7 @@ body {
 	min-width: 100vw;
 	font-family: "Open Sans", sans-serif;
 	font-weight: 400;
+	overflow-x: hidden
 }
 
 section div div {
