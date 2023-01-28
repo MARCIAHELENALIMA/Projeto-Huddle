@@ -38,6 +38,7 @@ body {
 	min-width: 100vw;
 	font-family: "Open Sans", sans-serif;
 	font-weight: 400;
+	overflow-x: hidden
 }
 
 section div div {
@@ -216,7 +217,7 @@ ul {
 
 .logo-huddle {
 	margin-top: 70px;
-	margin-left: 5.5em;
+	margin-left: 72px;
 	width: 200px;
 }
 
@@ -231,7 +232,6 @@ ul {
 	width: 100%;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-	padding: 0 3em;
 }
 
 .location {
@@ -326,14 +326,15 @@ ul {
 	/*========== footer ==========*/
 	.logo-huddle {
 		margin-top: 80px;
-	}
-
-	.contacts {
-		padding: 0 1em;
+		margin-left: 2.5em;
 	}
 
 	.box-one {
 		width: 45%;
+	}
+
+	.contacts {
+		justify-content: center;
 	}
 
 	.social-networks {
@@ -422,6 +423,12 @@ ul {
 	}
 
 	/*========== footer ==========*/
+	#footer{
+		padding-bottom: 3em;
+		padding-top: 5em;
+		padding-left: 1em;
+	}
+
 	.logo-huddle {
 		margin-left: 2em;
 	}
