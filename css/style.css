@@ -404,15 +404,41 @@ ul {
 		padding: 1em;
 	}
 
+<<<<<<< HEAD
+    .box-one {
+        width: 100%;
+		padding-bottom: 25px;
+    }
+=======
 	/*========== box ==========*/
 	.start-container {
 		width: 80%;
 	}
+>>>>>>> 8d0cc9ec7f0fda00fc9e7db94f001569d69ec639
 
 	.start-container h2 {
 		margin-bottom: 30px;
 	}
 
+<<<<<<< HEAD
+    .links {
+		width: 100%;
+		padding-bottom: 25px;
+    }
+
+	.copyright {
+		padding-right: 1em;
+		padding-left: 2em;
+		justify-content: flex-start;
+		margin-top: 35px;
+	}
+
+	.copyright a {
+      display: block;
+	}
+
+
+=======
 	/*========== footer ==========*/
 	.logo-huddle {
 		margin-left: 2em;
@@ -424,15 +450,17 @@ ul {
 		padding: 0 2em;
 	}
 
-    .box-one {
-        width: 100%;
-    }
+	.box-one {
+		width: 100%;
+	}
 
 	.location {
 		width: 100%;
 	}
 
-    .links {
-        width: 100%;
-    }
+	.links {
+		width: 100%;
+		padding-top: 25px
+	}
+>>>>>>> 8d0cc9ec7f0fda00fc9e7db94f001569d69ec639
 }
