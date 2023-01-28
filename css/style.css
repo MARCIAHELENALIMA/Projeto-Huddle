@@ -516,6 +516,18 @@ ul {
 	}
 }
 
+@media (max-width: 457px){
+	/*========== navbar ==========*/
+    .nav-container img{
+		width: 150px;
+    }
+
+	.btn-nav {
+		padding: 15px 15px;
+		font-size: 15px;
+	}
+}
+
 @media (min-width: 2000px) {
 
 	body {
